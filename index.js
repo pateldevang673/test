@@ -5,3 +5,15 @@ function hello(){
 
 }
 hello()
+
+function dev(){
+    console.log('hello');
+}
+
+function hello(callback){
+
+    console.log(callback);
+
+}
+
+hello(dev);
